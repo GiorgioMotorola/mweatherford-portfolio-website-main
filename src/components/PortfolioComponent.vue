@@ -144,7 +144,7 @@ export default {
 
 .terminal {
   background: #3f250d;
-  background-image: url("./public/noise.png");
+  background-image: url("/noise.png");
   color: #fdad44;
   font-family: monospace;
   height: 100vh;
@@ -176,7 +176,7 @@ input {
   width: 25%;
   font-size: 17px;
   display: hidden;
-  background-image: url("./public/noise.png");
+  background-image: url("/noise.png");
   caret-color: #fdad44 !important;
 }
 
@@ -187,7 +187,7 @@ input {
   background: #3f250d;
   color: #fdad44;
   text-align: center;
-  background-image: url("./public/noise.png");
+  background-image: url("/noise.png");
   overflow: auto;
   border-top: hidden;
 }
