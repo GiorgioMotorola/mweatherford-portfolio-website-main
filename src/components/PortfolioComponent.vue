@@ -44,9 +44,9 @@
     </div>
 
     <div class="input-line" v-if="!showPortfolio">
-      <span>&gt;&nbsp;</span>
-      <input v-model="input" @keyup.enter="processInput" ref="inputField" />
-    </div>
+  <span>&gt;&nbsp;</span>
+  <input v-model="input" @keyup.enter="processInput" ref="inputField" autofocus />
+</div>
   </div>
   <div class="scanline"></div>
 </template>
