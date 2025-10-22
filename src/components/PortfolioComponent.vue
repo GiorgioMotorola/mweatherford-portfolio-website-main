@@ -24,7 +24,7 @@
 
       <div class="right-content">
         <div class="about-me">About Me</div>
-        <div class="about-me-desc">I am a software developer with an insatiable curiosity and a strong passion for learning and creating. My journey started in 2022 with the University of Helsinki's Java MOOC, and I've since successfully completed the Software Development and Web Development courses offered by the state-funded coding bootcamp called Code: You. Shortly after, I would work under contract as a software development intern at Virtual Peaker. Currently, I am a Level 2 Service Desk Analyst with Encore Technologies.</div>
+        <div class="about-me-desc">I am a software developer with an insatiable curiosity and a strong passion for learning and creating. My journey started in 2022 with the University of Helsinki's Java MOOC, and I've since successfully completed the Software Development and Web Development courses offered by the state-funded coding bootcamp called Code: You. Shortly after, I would work under contract as a software development intern at Virtual Peaker. Currently, I am an Electronic Health Records Analyst with Encore Technologies.</div>
         <div class="project-title">Projects</div>
         <div class="links-container">
           <div class="link-item" v-for="(item, index) in links" :key="index">
@@ -78,12 +78,12 @@ export default {
       charIndex: 0,
       lineIndex: 0,
       links: [
-        { url: 'https://nostatic.mweatherford.rocks/', imgSrc: '/nostatic.PNG', hoverImgSrc: '/nostatic-hover.PNG', imgAlt: 'Image 1', text: 'No Static: An Essential Albums Guide' },
-        { url: 'https://weather.mweatherford.rocks/', imgSrc: '/weather.PNG', hoverImgSrc: '/weather-hover.PNG', imgAlt: 'Image 2', text: 'The Weather-ford Cast' },
-        { url: 'https://lastyear.mweatherford.rocks/', imgSrc: '/lastfm.PNG', hoverImgSrc: '/lastfm-hover.PNG', imgAlt: 'Image 3', text: 'Last Year' },
-        { url: 'http://www.accardi.xyz/', imgSrc: '/joe.PNG', hoverImgSrc: '/joe-hover.PNG', imgAlt: 'Image 4', text: 'PowerShell Terminal Portfolio Website' },
-        { url: 'https://ff.mweatherford.rocks/', imgSrc: '/ff.PNG', hoverImgSrc: '/ff-hover.PNG', imgAlt: 'Image 5', text: 'Fighting Frames' },
-        { url: 'https://randwiki.mweatherford.rocks/', imgSrc: '/rand.PNG', hoverImgSrc: '/rand-hover.PNG', imgAlt: 'Image 6', text: 'Rand.Wiki' }
+        { url: 'https://linkslayer.mweatherford.rocks/', imgSrc: '/link-hover.png', imgAlt: 'Image 6', text: 'Linkslayer: a D&D Inspired Wikipedia Game' },
+        { url: 'https://nostatic.mweatherford.rocks/', imgSrc: '/nostatic-hover.PNG', imgAlt: 'Image 1', text: 'No Static: An Essential Albums Guide' },
+        { url: 'https://weather.mweatherford.rocks/', imgSrc: '/weather-hover.PNG', imgAlt: 'Image 2', text: 'The Weather-ford Cast' },
+        { url: 'https://lastyear.mweatherford.rocks/', imgSrc: '/lastfm-hover.PNG', imgAlt: 'Image 3', text: 'Last Year' },
+        { url: 'http://www.accardi.xyz/', imgSrc: '/joe-hover.PNG', imgAlt: 'Image 4', text: 'PowerShell Terminal Portfolio Website' },
+        { url: 'https://ff.mweatherford.rocks/', imgSrc: '/ff-hover.PNG', imgAlt: 'Image 5', text: 'Fighting Frames' },
       ]
 
     };
@@ -274,6 +274,10 @@ a {
   height: 150px;
   object-fit: cover;
   border-radius: 3px;
+}
+
+.link-image:hover {
+  box-shadow: rgba(112, 100, 100, 0.445) 0px 4px 12px;
 }
 
 .link-text {
