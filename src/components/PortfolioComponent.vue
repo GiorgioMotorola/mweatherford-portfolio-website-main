@@ -78,7 +78,7 @@ export default {
       charIndex: 0,
       lineIndex: 0,
       links: [
-        { url: 'https://linkslayer.mweatherford.rocks/', imgSrc: '/link-hover.png', imgAlt: 'Image 6', text: 'Linkslayer: a D&D Inspired Wikipedia Game' },
+        { url: 'https://linkslayer.org/', imgSrc: '/link-hover.png', imgAlt: 'Image 6', text: 'Linkslayer: a D&D Inspired Wikipedia Game' },
         { url: 'https://nostatic.mweatherford.rocks/', imgSrc: '/nostatic-hover.PNG', imgAlt: 'Image 1', text: 'No Static: An Essential Albums Guide' },
         { url: 'https://weather.mweatherford.rocks/', imgSrc: '/weather-hover.PNG', imgAlt: 'Image 2', text: 'The Weather-ford Cast' },
         { url: 'https://lastyear.mweatherford.rocks/', imgSrc: '/lastfm-hover.PNG', imgAlt: 'Image 3', text: 'Last Year' },
